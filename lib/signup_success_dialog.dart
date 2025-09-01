@@ -8,14 +8,14 @@ class SignupSuccessDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Custom Dialog Example")),
-      backgroundColor: Colors.red, // 🔴 bg color red
+      // backgroundColor: Colors.red, // 🔴 bg color red
       body: Center(
         child: ElevatedButton(
           onPressed: () {
             showDialog(
-              // barrierColor: Colors.red.withValues(
-              //   alpha: 0.1,
-              // ), // 🔴 bg color red
+              barrierColor: Colors.black.withValues(
+                alpha: 0.8,
+              ), // 🔴 bg color red
               context: context,
               builder: (context) {
                 return Dialog(
