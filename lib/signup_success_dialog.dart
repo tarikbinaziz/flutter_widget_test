@@ -13,9 +13,9 @@ class SignupSuccessDialog extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             showDialog(
-              barrierColor: Colors.black.withValues(
-                alpha: 0.8,
-              ), // 🔴 bg color red
+              barrierColor: Color(
+                0xff0E212B,
+              ).withOpacity(0.9), // 🔴 bg color red
               context: context,
               builder: (context) {
                 return Dialog(
