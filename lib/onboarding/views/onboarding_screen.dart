@@ -7,8 +7,8 @@ import 'package:flutter_widget_carosel_slider/config/app_text_style.dart';
 import 'package:flutter_widget_carosel_slider/config/custom_button.dart';
 import 'package:flutter_widget_carosel_slider/config/hive_service_provider.dart';
 import 'package:flutter_widget_carosel_slider/config/theme.dart';
-import 'package:flutter_widget_carosel_slider/controller.dart';
 import 'package:flutter_widget_carosel_slider/gen/assets.gen.dart';
+import 'package:flutter_widget_carosel_slider/onboarding/controller/onboarding_controller.dart';
 import 'package:gap/gap.dart';
 
 class OnboardingLayout extends ConsumerStatefulWidget {
