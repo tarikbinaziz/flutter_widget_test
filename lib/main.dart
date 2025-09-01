@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_widget_carosel_slider/config/app_constants.dart';
 import 'package:flutter_widget_carosel_slider/config/theme.dart';
-import 'package:flutter_widget_carosel_slider/onboarding_layout.dart';
+import 'package:flutter_widget_carosel_slider/onboarding/views/onboarding_screen.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {
