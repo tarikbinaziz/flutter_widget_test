@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_widget_carosel_slider/config/app_constants.dart';
 import 'package:flutter_widget_carosel_slider/config/theme.dart';
-import 'package:flutter_widget_carosel_slider/signup_success_dialog.dart';
+import 'package:flutter_widget_carosel_slider/home.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: SignupSuccessDialog(),
+      child: TestScreen(),
       // child: OnboardingLayout(),
     );
   }
